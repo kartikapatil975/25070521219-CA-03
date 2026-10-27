@@ -1,0 +1,14 @@
+{
+  "name": "readsphere-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ReadSphere — Smart Reading Tracker with Local MongoDB Compass",
+  "scripts": {
+    "dev": "cd backend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start": "cd backend && npm start",
+    "seed": "cd backend && npm run seed",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
